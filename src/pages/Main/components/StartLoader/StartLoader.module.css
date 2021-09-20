@@ -1,0 +1,45 @@
+.loader {
+    transition: all .3s;
+    position: absolute;
+    top: calc(50% - 200px);
+    left: calc(50% - 100px);
+}
+
+.w {
+    transition: all .3s;
+    width: 170px;
+    height: 270px;
+    font-size: 200px;
+    line-height: 150px;
+    color: white;
+    font-weight: 100;
+    transform: rotate(180deg) scaleX(1.2) scaleY(.5);
+}
+
+.squareBox {
+    transition: all .3s;
+    position: absolute;
+    top: 140px;
+    left: 55px;
+}
+
+.square {
+    width: 50px;
+    height: 50px;
+    border: 5px solid white;
+    background: black;
+    transform: rotate(45deg);
+}
+
+.loaded {
+    top: 45px;
+    left: 110px;
+}
+
+.loaded .w {
+    transform: rotate(0deg) scaleX(1) scaleY(1);
+}
+
+.loaded .squareBox {
+    opacity: 0;
+}

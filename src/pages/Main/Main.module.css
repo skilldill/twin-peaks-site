@@ -1,0 +1,16 @@
+.main {
+    height: 100vh;
+    background-color: black;
+    position: relative;
+}
+
+h1 {
+    margin: 0;
+    color: white;
+    font-size: 200px;
+    font-weight: 100;
+}
+
+h1 span {
+    color: black;
+}
