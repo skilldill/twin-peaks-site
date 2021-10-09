@@ -1,0 +1,29 @@
+.rightPart {
+    transition: all 1s;
+    opacity: 0;
+    flex: 1;
+    height: 100%;
+    overflow: hidden;
+}
+
+.background {
+    transition: background 1s;
+    background-image: url(../../../../assets/black_wigwam.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    transform: scale(1.2);
+}
+
+.blackWigwam {
+    background-image: url(../../../../assets/black_wigwam.png);
+}
+
+.whiteWigwam {
+    background-image: url(../../../../assets/white_wigwam.png);
+}
+
+.loaded {
+    opacity: 1;
+}

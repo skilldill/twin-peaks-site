@@ -1,12 +1,23 @@
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
 .loader {
-    transition: all .3s;
+    transition: all .8s;
     position: absolute;
     top: calc(50% - 200px);
     left: calc(50% - 100px);
+    animation: fadeIn 2s linear 1s;
 }
 
 .w {
-    transition: all .3s;
+    transition: all .8s;
     width: 170px;
     height: 270px;
     font-size: 200px;
@@ -17,7 +28,7 @@
 }
 
 .squareBox {
-    transition: all .3s;
+    transition: all .8s;
     position: absolute;
     top: 140px;
     left: 55px;
@@ -32,8 +43,8 @@
 }
 
 .loaded {
-    top: 45px;
-    left: 110px;
+    top: 85px;
+    left: 150px;
 }
 
 .loaded .w {
